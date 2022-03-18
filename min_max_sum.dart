@@ -3,6 +3,7 @@
 // respective minimum and maximum values as a single line of two space-separated
 // long integers.
 // Example: [1,2,3,4,5] => 10, 14
+// try this code in dartPad first.
 import 'dart:math' as math;
 
 void main() {

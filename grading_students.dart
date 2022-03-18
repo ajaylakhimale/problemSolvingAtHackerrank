@@ -5,10 +5,11 @@ import 'dart:math' as math;
 void main() {
   //
   //this is the list of marks that  students has obtained in seven different subjects, and this list is dynamic/random.
-  List<int> marks = List.generate(7, (index) => (math.Random().nextInt(100)));
+  List<int> grades = List.generate(7, (index) => (math.Random().nextInt(100)));
   //
-  for (int i in marks) {
-    gradingStudents(i);
+  //
+  for (int grade in grades) {
+    gradingStudents(grade);
   }
 }
 
@@ -33,4 +34,4 @@ void gradingStudents(int n) {
   }
   print(roundNumber);
 }
-// if you can optimise this code please do it and tag me.
+// if you can optimise this code please do it and tag me @ajaylakhimale.
